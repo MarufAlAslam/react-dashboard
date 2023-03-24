@@ -12,7 +12,7 @@ const Sidebar = () => {
             </a>
             <Menu/>
             </div>
-                <img src={support} alt=""/>
+                <img src={support} className="mt-10" alt=""/>
         </div>
     )
 }
