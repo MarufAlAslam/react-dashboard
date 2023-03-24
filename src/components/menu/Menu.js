@@ -48,7 +48,7 @@ const Menu = () => {
     },
   ];
   return (
-    <div className="px-6 py-3">
+    <div className="px-6 py-3 menu-items">
       <ul className="menu">
         {
           menuItems.map((item) => {

@@ -89,3 +89,108 @@ p.unread {
 .text-right.dt {
     min-width: 84px;
 }
+.menuBtn{
+    display: none;
+}
+
+
+@media screen and (max-width: 767px){
+    .flex {
+        flex-direction: column;
+    }
+    body, html{
+        overflow-y: scroll;
+    }
+    .min-h-screen {
+        overflow-y: auto;
+        height: auto;
+        width: 100%;
+    }
+    .w-1\/3 {
+        width: 100%;
+    }
+    .sidebar {
+    width: 100%;
+}
+.topPart {
+    width: 100%;
+}
+.min-h-screen .flex .w-1\/3.flex.justify-end.items-center {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 13px; */
+}
+.min-h-screen .flex .w-1\/3.flex.justify-end.items-center .flex {
+    flex-direction: row;
+}
+.w-3\/4 {
+    width: 100%;
+}
+.card {
+    text-align: center;
+}
+.circle.rounded-full {
+    margin-top: 20px;
+}
+.card.bg-white.m-2.w-1\/3.rounded-md {
+    margin-left: 0;
+}
+.w-1\/4 {
+    width: 100%;
+}
+.w-1\/4 .flex {
+    flex-direction: revert;
+    margin-bottom: 20px;
+}
+.recharts-wrapper {
+    height: 200px !important;
+    width: 100% !important;
+}
+.recharts-responsive-container {
+    min-height: 200px;
+}
+.w-full.ml-2 {
+    /* width: 175px; */
+    text-align: left;
+}
+img.circle.bg-transparent.rounded-full {
+    margin: 0;
+}
+.menuBtn{
+    display: block;
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    z-index: 999;
+    font-size: 30px;
+}
+.sidebar {
+    width: 100%;
+    min-height: auto;
+}
+.main-menu {
+    display: none;
+}
+.main-menu.show {
+    display: block;
+}
+.sprt{
+    display: none;
+}
+.ttbar {
+    flex-direction: column-reverse;
+}
+form {
+    margin-bottom: 20px;
+}
+.py-8.pt-zero {
+    padding-top: 0;
+}
+.p-3.pl-0.pr-4 {
+    padding-right: 0;
+}
+.p-3.pl-0 {
+    padding-right: 0;
+}
+}

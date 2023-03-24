@@ -38,7 +38,7 @@ const Cards = () => {
   ];
 
   return (
-    <div className="py-8">
+    <div className="py-8 pt-zero">
       <h2 className="text-3xl font-bold">Dashboard</h2>
 
       <div className="flex justify-between items-start mt-5">

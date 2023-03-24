@@ -8,7 +8,7 @@ const TopBar = () => {
 
     const [flagImg, setFlagImg] = useState(flag)
     return (
-        <div className='flex justify-between items-center'>
+        <div className='flex justify-between items-center ttbar'>
             <div className='w-1/3'>
                 <p className='m-0'>
                 Hello, Christian!
