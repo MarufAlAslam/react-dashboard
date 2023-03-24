@@ -5,7 +5,7 @@ import '../assets/css/style.css'
 
 const Main = () => {
     return (
-        <div className='flex justify-between items-center'>
+        <div className='flex justify-between items-start'>
             <Sidebar/>
             <MainBody/>
         </div>
