@@ -103,13 +103,23 @@ const Chart = () => {
             left: 20,
           }}
         >
+            <defs>
+          <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="5%" stopColor="#0E76D5" stopOpacity={1}/>
+            <stop offset="95%" stopColor="#0E76D5" stopOpacity={0.1}/>
+          </linearGradient>
+          <linearGradient id="colorUv2" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="5%" stopColor="#EB6161" stopOpacity={1}/>
+            <stop offset="95%" stopColor="#EB6161" stopOpacity={0.1}/>
+          </linearGradient>
+        </defs>
           <CartesianGrid stroke="#f5f5f5" />
           <XAxis dataKey="name" label={{ value: '', position: 'insideBottomRight', offset: 0 }} scale="band" />
           <YAxis label={{ value: '', angle: -90, position: 'insideLeft' }} />
           <Tooltip />
           <Legend />
-          <Area type="monotone" dataKey="p1" fill="#EB616150" stroke="#EB616150" />
-          <Area type="monotone" dataKey="p2" fill="#0E76D550" stroke="#0E76D550" />
+          <Area type="monotone" dataKey="p2" fill="url(#colorUv2)" stroke="#0E76D550" />
+          <Area type="monotone" dataKey="p1" fill="url(#colorUv)" stroke="#EB616150" />
           {/* <Bar dataKey="pv" barSize={20} fill="#413ea0" /> */}
           {/* <Line type="monotone" dataKey="uv" stroke="#ff7300" /> */}
         </ComposedChart>
