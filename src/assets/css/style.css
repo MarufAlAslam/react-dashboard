@@ -1,0 +1,20 @@
+.sidebar{
+    width: 260px;
+    background-color: white;
+    min-height: 100vh;
+}
+.menu a:hover, .menu a.active {
+	background: #F4F6FA;
+    color: #3746A4;
+    font-weight: 600;
+}
+
+.menu a {
+	width: 100%;
+	display: flex;
+	padding: 12px 16px;
+	border-radius: 10px;
+	font-weight: 500;
+	margin: 10px 0;
+	align-items: center;
+}

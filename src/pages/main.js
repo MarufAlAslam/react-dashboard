@@ -1,9 +1,13 @@
 import React from 'react'
+import MainBody from '../components/mainBody/MainBody'
+import Sidebar from '../components/sidebar/Sidebar'
+import '../assets/css/style.css'
 
 const Main = () => {
     return (
-        <div className='bg-red-500'>
-            Main page
+        <div className='flex justify-between items-center'>
+            <Sidebar/>
+            <MainBody/>
         </div>
     )
 }
