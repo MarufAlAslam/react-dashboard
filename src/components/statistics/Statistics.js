@@ -4,7 +4,7 @@ import Chart from "./Chart";
 
 const Statistics = () => {
   return (
-    <div className="p-3 pl-0">
+    <div className="p-3 pl-0 pr-4">
       <div className="flex justify-between items-center">
         <h2 className="text-2xl font-bold">Statistics</h2>
         <p className="mb-0 flex items-center">Oct. 2021 <FaAngleDown className="ml-2"/></p>

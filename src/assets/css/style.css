@@ -64,7 +64,7 @@
     margin-left: 0;
 }
 .recharts-responsive-container {
-    min-height: 400px;
+    min-height: 430px;
 }
 body, html{
     overflow-y: hidden;
@@ -72,4 +72,20 @@ body, html{
 .min-h-screen {
     overflow-y: scroll;
     height: 100vh;
+}
+p.unread {
+    background: #3746A4;
+    color: white;
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: auto;
+    line-height: 1;
+}
+.text-right.dt {
+    min-width: 84px;
 }
